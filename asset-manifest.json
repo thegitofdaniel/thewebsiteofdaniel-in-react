@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/thewebsiteofdaniel-in-react/static/css/main.0c0cc248.css",
+    "main.js": "/thewebsiteofdaniel-in-react/static/js/main.a0256096.js",
+    "static/js/453.974c5e86.chunk.js": "/thewebsiteofdaniel-in-react/static/js/453.974c5e86.chunk.js",
+    "static/media/retirement-in-italy.png": "/thewebsiteofdaniel-in-react/static/media/retirement-in-italy.e7ed3ed6a5e8c58fd96b.png",
+    "static/media/dalle-upward-arrow.png": "/thewebsiteofdaniel-in-react/static/media/dalle-upward-arrow.f922494aadb0a5e65082.png",
+    "static/media/daniel-ruiz-portrait-square-zoom.jpg": "/thewebsiteofdaniel-in-react/static/media/daniel-ruiz-portrait-square-zoom.868053c8dd130de7d124.jpg",
+    "static/media/thewebsiteofdaniel.png": "/thewebsiteofdaniel-in-react/static/media/thewebsiteofdaniel.199f6cc7e1adce720931.png",
+    "static/media/pypi-interesting.png": "/thewebsiteofdaniel-in-react/static/media/pypi-interesting.d6af10f2cffe0381ca76.png",
+    "index.html": "/thewebsiteofdaniel-in-react/index.html",
+    "main.0c0cc248.css.map": "/thewebsiteofdaniel-in-react/static/css/main.0c0cc248.css.map",
+    "main.a0256096.js.map": "/thewebsiteofdaniel-in-react/static/js/main.a0256096.js.map",
+    "453.974c5e86.chunk.js.map": "/thewebsiteofdaniel-in-react/static/js/453.974c5e86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c0cc248.css",
+    "static/js/main.a0256096.js"
+  ]
+}
