@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Service({ title, icon, text }) {
     return (
@@ -9,5 +10,11 @@ function Service({ title, icon, text }) {
         </div>
     );
 }
+
+Service.propTypes = {
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.element.isRequired,
+    text: PropTypes.string.isRequired,
+};
 
 export default Service;

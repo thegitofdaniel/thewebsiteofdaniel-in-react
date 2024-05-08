@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProgressList from './ProgressList';
+import PropTypes from 'prop-types';
 
 function Skill({ title, icon, items }) {
     const [showItems, setShowItems] = useState(false);
@@ -25,5 +26,11 @@ function Skill({ title, icon, items }) {
         </div>
     );
 }
+
+Skill.propTypes = {
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.element.isRequired,
+    items: PropTypes.arrayOf(PropTypes.string).isRequired,
+  };
 
 export default Skill;
