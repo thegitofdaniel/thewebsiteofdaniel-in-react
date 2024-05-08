@@ -5,12 +5,12 @@ import the_website_of_daniel from './../../images/thewebsiteofdaniel.png';
 
 function Portfolio() {
     return (
-        <section class="portfolio" id="portfolio">
+        <section className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
-            <div class="container">
-                <div class="projects">
-                    <div class="project">
-                        <div class="thumbnail">
+            <div className="container">
+                <div className="projects">
+                    <div className="project">
+                        <div className="thumbnail">
                             <img src={pypi_interesting} alt="PyPI Interesting" />
                         </div>
                         <h2>interesting</h2>
@@ -20,7 +20,7 @@ function Portfolio() {
                             analyze, visualize, and valuate various types of fixed income
                             instruments and portfolios made thereof.
                         </p>
-                        <div class="action">
+                        <div className="action">
                             <a href="https://github.com/thegitofdaniel/interesting">
                                 Github
                             </a>
@@ -30,8 +30,8 @@ function Portfolio() {
                         </div>
                     </div>
 
-                    <div class="project">
-                        <div class="thumbnail">
+                    <div className="project">
+                        <div className="thumbnail">
                             <img src={retirement_in_italy} alt="Retirement in Italy" />
                         </div>
                         <h2>Streamlit App with Fiscal Benefit Map</h2>
@@ -42,7 +42,7 @@ function Portfolio() {
                             offer fiscal benefits for incoming retirees. This project leverages
                             knowledge of Technology, Data, Fiscal Optimization, and Italy.
                         </p>
-                        <div class="action">
+                        <div className="action">
                             <a href="https://github.com/thegitofdaniel/retirement_in_italy">
                                 Github
                             </a>
@@ -55,8 +55,8 @@ function Portfolio() {
                         </div>
                     </div>
 
-                    <div class="project">
-                        <div class="thumbnail">
+                    <div className="project">
+                        <div className="thumbnail">
                             <img src={the_website_of_daniel} alt="The Website of Daniel" />
                         </div>
                         <h2>My Website</h2>
@@ -65,7 +65,7 @@ function Portfolio() {
                             open-sourced templates. You may copy it too, as long as you keep the
                             license.
                         </p>
-                        <div class="action">
+                        <div className="action">
                             <a href="https://github.com/thegitofdaniel/thewebsiteofdaniel">
                                 Github
                             </a>

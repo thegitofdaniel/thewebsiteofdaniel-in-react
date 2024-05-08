@@ -9,9 +9,9 @@ const financeText = `I coach selected companies and individuals on how to identi
 
 function Services() {
     return (
-        <section class="services" id="services">
+        <section className="services" id="services">
             <h1>Services</h1>
-            <div class="container">
+            <div className="container">
                 <Service title="Data Science" icon="model_training" text={dataScienceText} />
                 <Service title="MLOPS" icon="diversity_3" text={mlopsText} />
                 <Service title="Finance" icon="payments" text={financeText} />
