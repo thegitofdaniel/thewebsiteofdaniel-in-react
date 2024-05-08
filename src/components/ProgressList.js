@@ -34,7 +34,7 @@ function ProgressItem({ name, percentage }) {
 
 ProgressItem.propTypes = {
     name: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,
+    percentage: PropTypes.number.isRequired
 };
 
 function ProgressList({ items }) {
@@ -49,11 +49,8 @@ function ProgressList({ items }) {
 
 ProgressList.propTypes = {
     items: PropTypes.arrayOf(
-      PropTypes.arrayOf(
-        PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-      )
-    ).isRequired,
-  };
-
+        PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+    ).isRequired
+};
 
 export default ProgressList;

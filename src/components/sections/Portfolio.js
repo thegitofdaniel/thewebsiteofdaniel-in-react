@@ -21,12 +21,8 @@ function Portfolio() {
                             instruments and portfolios made thereof.
                         </p>
                         <div className="action">
-                            <a href="https://github.com/thegitofdaniel/interesting">
-                                Github
-                            </a>
-                            <a href="https://pypi.org/project/interesting">
-                                PyPi
-                            </a>
+                            <a href="https://github.com/thegitofdaniel/interesting">Github</a>
+                            <a href="https://pypi.org/project/interesting">PyPi</a>
                         </div>
                     </div>
 
