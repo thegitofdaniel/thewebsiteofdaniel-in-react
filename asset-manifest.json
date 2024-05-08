@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c0cc248.css",
-    "main.js": "/static/js/main.c37604d0.js",
+    "main.js": "/static/js/main.5c48f14f.js",
     "static/js/453.974c5e86.chunk.js": "/static/js/453.974c5e86.chunk.js",
     "static/media/retirement-in-italy.png": "/static/media/retirement-in-italy.e7ed3ed6a5e8c58fd96b.png",
     "static/media/dalle-upward-arrow.png": "/static/media/dalle-upward-arrow.f922494aadb0a5e65082.png",
@@ -10,11 +10,11 @@
     "static/media/pypi-interesting.png": "/static/media/pypi-interesting.d6af10f2cffe0381ca76.png",
     "index.html": "/index.html",
     "main.0c0cc248.css.map": "/static/css/main.0c0cc248.css.map",
-    "main.c37604d0.js.map": "/static/js/main.c37604d0.js.map",
+    "main.5c48f14f.js.map": "/static/js/main.5c48f14f.js.map",
     "453.974c5e86.chunk.js.map": "/static/js/453.974c5e86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c0cc248.css",
-    "static/js/main.c37604d0.js"
+    "static/js/main.5c48f14f.js"
   ]
 }
