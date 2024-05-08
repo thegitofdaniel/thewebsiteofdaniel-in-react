@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const navItems = [
     { name: 'Home', href: '#' },
@@ -28,5 +29,9 @@ function SectionsList({ displayStyle }) {
         </ul>
     );
 }
+
+SectionsList.propTypes = {
+    displayStyle: PropTypes.string.isRequired,
+};
 
 export default SectionsList;
