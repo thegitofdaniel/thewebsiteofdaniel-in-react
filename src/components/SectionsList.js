@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const navItems = [
@@ -21,9 +22,9 @@ function SectionsList({ displayStyle }) {
         <ul style={displayStyle ? { display: displayStyle } : {}}>
             {navItems.map((item) => (
                 <li key={item.name} onClick={() => makeActive(item.name)}>
-                    <a href={item.href} className={activeItem === item.name ? 'active' : ''}>
+                    <Link to={item.href} className={activeItem === item.name ? 'active' : ''}>
                         {item.name}
-                    </a>
+                    </Link>
                 </li>
             ))}
         </ul>
