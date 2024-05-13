@@ -62,9 +62,11 @@ Contributions are welcome! If you find any bugs, typos, or have suggestions for 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Setting up Strato
+
 This website is deployed to Strato. [Here](https://www.schminkel.de/articles/2022-04-04_github-pages-with-strato) you will find instructions on how to set up GitHub Pages and Strato.
 
 ## GitHub Pages
+
 This website is deployed with GitHub Pages. [Here](https://blog.logrocket.com/deploying-react-apps-github-pages/) you will find instructions on how to do this deployment.
 
 ## Thank-You
