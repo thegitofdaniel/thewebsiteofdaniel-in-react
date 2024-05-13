@@ -11,11 +11,11 @@ repos:
     # - repo: https://github.com/pre-commit/mirrors-csslint
     #   rev: v1.0.5
     #   hooks:
-    #     - id: csslint
-    # - repo: https://github.com/pre-commit/mirrors-fixmyjs
-    #   rev: v2.0.0
-    #   hooks:
-    #       - id: fixmyjs
+    #       - id: csslint
+    - repo: https://github.com/pre-commit/mirrors-fixmyjs
+      rev: v2.0.0
+      hooks:
+          - id: fixmyjs
     - repo: https://github.com/pre-commit/mirrors-prettier
       rev: v2.1.0
       hooks:
