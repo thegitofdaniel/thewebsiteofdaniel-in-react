@@ -1,26 +1,16 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 
-const navItems = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: "Let's Talk", href: '#contact' }
-];
-
-function SectionsList({ displayStyle }) {
+function SectionsList({ displayStyle, navItems }) {
     const [activeItem, setActiveItem] = useState('Home');
 
-    const makeActive = (item) => {
-        setActiveItem(item);
+    const handleItemClick = (itemName) => {
+        setActiveItem(itemName);
     };
 
     return (
-        <ul style={displayStyle ? { display: displayStyle } : {}}>
+        <ul style={{ display: displayStyle }}>
             {navItems.map((item) => (
-                <li key={item.name} onClick={() => makeActive(item.name)}>
+                <li key={item.name} onClick={() => handleItemClick(item.name)}>
                     <a href={item.href} className={activeItem === item.name ? 'active' : ''}>
                         {item.name}
                     </a>
@@ -30,8 +20,15 @@ function SectionsList({ displayStyle }) {
     );
 }
 
-SectionsList.propTypes = {
-    displayStyle: PropTypes.string
+SectionsList.defaultProps = {
+    navItems: [
+        { name: 'Home', href: '#' },
+        { name: 'About', href: '#about' },
+        { name: 'Services', href: '#services' },
+        { name: 'Skills', href: '#skills' },
+        { name: 'Portfolio', href: '#portfolio' },
+        { name: "Let's Talk", href: '#contact' }
+    ]
 };
 
 export default SectionsList;
