@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import daniel_ruiz_portrait from './../../images/daniel-ruiz-portrait-square-zoom.jpg';
 import Socials from './../Socials';
 import downloadCV from './../../functions/downloadCV';
+import Contact from './Contact';
 
 function Landing() {
     return (
@@ -18,9 +20,7 @@ function Landing() {
                         execution and hand-off. Join me in exploring the curious fields of AIML and
                         MLOPS, where complex problems meet cutting-edge solutions.
                     </p>
-                    <a className="btn btn-primary" href="#contact">
-                        Let&apos;s Talk
-                    </a>
+                    <Link to={Contact} className="btn btn-primary">Let&apos;s Talk</Link>
                     <a className="btn btn-primary" onClick={downloadCV}>
                         <i className="uil uil-download-alt"></i>
                         Download CV
