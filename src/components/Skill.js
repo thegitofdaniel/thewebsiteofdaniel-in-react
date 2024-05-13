@@ -29,8 +29,8 @@ function Skill({ title, icon, items }) {
 
 Skill.propTypes = {
     title: PropTypes.string.isRequired,
-    icon: PropTypes.element.isRequired,
-    items: PropTypes.arrayOf(PropTypes.string).isRequired
+    icon: PropTypes.string.isRequired,
+    items: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))).isRequired
 };
 
 export default Skill;

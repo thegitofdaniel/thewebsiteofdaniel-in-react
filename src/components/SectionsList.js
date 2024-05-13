@@ -31,7 +31,7 @@ function SectionsList({ displayStyle }) {
 }
 
 SectionsList.propTypes = {
-    displayStyle: PropTypes.string.isRequired
+    displayStyle: PropTypes.string
 };
 
 export default SectionsList;
