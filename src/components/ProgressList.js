@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function ProgressItem({ name, percentage }) {
     const styles = {
@@ -31,6 +32,11 @@ function ProgressItem({ name, percentage }) {
     );
 }
 
+ProgressItem.propTypes = {
+    name: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired
+};
+
 function ProgressList({ items }) {
     return (
         <div className="progress-list">
@@ -40,5 +46,11 @@ function ProgressList({ items }) {
         </div>
     );
 }
+
+ProgressList.propTypes = {
+    items: PropTypes.arrayOf(
+        PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+    ).isRequired
+};
 
 export default ProgressList;

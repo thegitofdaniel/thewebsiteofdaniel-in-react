@@ -5,14 +5,14 @@ import Socials from './../Socials';
 function Footer() {
     return (
         <footer>
-            <div class="container">
+            <div className="container">
                 <a href="#">
                     <h3>Daniel Ruiz</h3>
                 </a>
                 <SectionsList />
                 <Socials />
             </div>
-            <div class="copyright">Copyright &copy; Daniel Ruiz</div>
+            <div className="copyright">Copyright &copy; Daniel Ruiz</div>
         </footer>
     );
 }

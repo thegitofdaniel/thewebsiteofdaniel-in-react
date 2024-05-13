@@ -1,36 +1,36 @@
+/*
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 
 function Testimonials() {
     return (
-        <section class="testimonials">
+        <section className="testimonials">
             <h1>Testimonials</h1>
-            <div class="container swiper">
-                <div class="carousel swipper-wrapper">
-                    <div class="testimonial swipper-slider">
-                        <div class="head">
-                            <div class="profile-area">
-                                <div class="avatar">
+            <div className="container swiper">
+                <div className="carousel swipper-wrapper">
+                    <div className="testimonial swipper-slider">
+                        <div className="head">
+                            <div className="profile-area">
+                                <div className="avatar">
                                     <img src="./images/feed-3.jpg" alt="" />
                                 </div>
-                                <div class="info">
+                                <div className="info">
                                     <h4>Name</h4>
                                     <small>Role (Company)</small>
                                 </div>
                             </div>
-                            <div class="stars">
-                                <span class="material-icons-sharp">star_rate</span>
-                                <span class="material-icons-sharp">star_rate</span>
-                                <span class="material-icons-sharp">star_rate</span>
-                                <span class="material-icons-sharp">star_rate</span>
-                                <span class="material-icons-sharp">star_rate</span>
+                            <div className="stars">
+                                <span className="material-icons-sharp">star_rate</span>
+                                <span className="material-icons-sharp">star_rate</span>
+                                <span className="material-icons-sharp">star_rate</span>
+                                <span className="material-icons-sharp">star_rate</span>
+                                <span className="material-icons-sharp">star_rate</span>
                             </div>
                         </div>
                         <p>XXX</p>
                     </div>
-                    <div class="swipper-scrollbar">
-                        <div class="swiper-scrollbar-drag"></div>
+                    <div className="swipper-scrollbar">
+                        <div className="swiper-scrollbar-drag"></div>
                     </div>
                 </div>
             </div>
@@ -39,3 +39,4 @@ function Testimonials() {
 }
 
 export default Testimonials;
+*/

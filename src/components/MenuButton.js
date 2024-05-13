@@ -32,12 +32,12 @@ function MenuButton() {
     const icon = isOpen ? 'close' : 'menu';
 
     return (
-        <>
+        <React.Fragment>
             <SectionsList displayStyle={displayStyle} />
             <button onClick={() => setIsOpen(!isOpen)} id={id}>
                 <span className="material-symbols-sharp">{icon}</span>
             </button>
-        </>
+        </React.Fragment>
     );
 }
 
