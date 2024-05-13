@@ -13,7 +13,7 @@ import Footer from './components/sections/Footer';
 
 function App() {
     return (
-        <>
+        <React.Fragment>
             <Navigation />
             <Landing />
             <About />
@@ -23,7 +23,7 @@ function App() {
             <Portfolio />
             <Contact />
             <Footer />
-        </>
+        </React.Fragment>
     );
 }
 
