@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import 'swiper/swiper-bundle.min.css';
 
@@ -38,3 +39,4 @@ function Testimonials() {
 }
 
 export default Testimonials;
+*/
