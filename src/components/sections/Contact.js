@@ -12,20 +12,20 @@ function Contact() {
                             type="text"
                             name="Name"
                             placeholder="Name"
-                            autocomplete="name"
+                            autoComplete="name"
                             required=""
                         />
                         <input
                             type="email"
                             name="Email"
                             placeholder="Email"
-                            autocomplete="email"
+                            autoComplete="email"
                             required=""
                         />
                         <textarea
                             name="Message"
                             placeholder="Message"
-                            autocomplete="off"
+                            autoComplete="off"
                             required=""
                         ></textarea>
                         <input type="submit" value="Submit" className="btn btn-primary" />
